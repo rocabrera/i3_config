@@ -2,6 +2,7 @@
 
 
 #Must install
+
 urxvt --- > sudo apt install rxvt-unicode
 
 #Ricing
