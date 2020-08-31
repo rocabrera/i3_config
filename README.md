@@ -2,19 +2,29 @@
 
 UBUNTU 20.04
 
-#Must install
+# Must install
 
-urxvt ---> sudo apt install rxvt-unicode
+* urxvt ---> sudo apt install rxvt-unicode
 
-#Ricing
+* use this command to set the default terminal:
+sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
 
-ranger ---> sudo apt install ranger
+* feh ---> sudo apt-get install feh
 
-gotop --> {
 
-- wget https://github.com/cjbassi/gotop/releases/download/3.0.0/gotop_3.0.0_linux_amd64.deb
-- sudo dpkg -i gotop_3.0.0_linux_amd64.deb
 
-}
+# Ricing
 
-neofetch ---> sudo apt install neofetch
+* ranger ---> sudo apt install ranger
+
+* gotop --> {
+
+ 1. wget https://github.com/cjbassi/gotop/releases/download/3.0.0/gotop_3.0.0_linux_amd64.deb
+ 
+ 2. sudo dpkg -i gotop_3.0.0_linux_amd64.deb
+
+  }
+
+* neofetch ---> sudo apt install neofetch
+
+
