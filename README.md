@@ -6,9 +6,6 @@ UBUNTU 20.04
 
 * urxvt ---> sudo apt install rxvt-unicode
 
-* use this command to set the default terminal:
-sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
-
 * feh ---> sudo apt-get install feh
 
 
@@ -28,3 +25,11 @@ sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
 * neofetch ---> sudo apt install neofetch
 
 
+# Config needed
+
+
+* use this command to set the default terminal:
+sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
+
+* run: chmod +x .Xresources
+* run: chmod +x .xsettingsd
